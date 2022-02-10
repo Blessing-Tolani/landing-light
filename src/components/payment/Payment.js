@@ -3,7 +3,7 @@ import PaymentHeader from "./PaymentHeader";
 
 const Payment = () => {
   return (
-    <div className="px-8">
+    <div className="pr-8 pl-10">
       <PaymentHeader />
       <PaymentCard />
     </div>
