@@ -1,6 +1,6 @@
 const DiscoverSvg = () => {
   return (
-    <div className=" w-12">
+    <div className=" w-10">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         xmlnsXlink="http://www.w3.org/1999/xlink"

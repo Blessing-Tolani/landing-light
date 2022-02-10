@@ -3,11 +3,10 @@ import WifiSvg from "../../../public/logos/WifiSvg";
 
 const MasterCard = () => {
   return (
-    <div className="font-semibold w-96 h-60 pt-2 bg-gradient-to-tr from-cardRed via-mixed to-cardPurple text-white">
+    <div className="mt-2 font-semibold w-96 h-60 pt-2 rounded-sm bg-gradient-to-tr from-cardRed via-mixed to-cardPurple text-white">
       <p className="pt-3 pb-2 pl-8 text-sm ">CARD NUMBER</p>
       <p className="pl-8">
-        4 3 2 4 <span className="mx-1">5 4 3 3 </span> 9 3 8 2{" "}
-        <span className="ml-1">1 0 3 0</span>
+        4 3 2 4 &nbsp; 5 4 3 3 &nbsp; 9 3 8 2&nbsp; 1 0 3 0
       </p>
       <div className="flex items-center pl-3">
         <div className="w-5 h-4  rotate-90 mt-6">

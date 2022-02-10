@@ -3,8 +3,8 @@ const VisaSvg = () => {
     <>
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        width="45"
-        height="45"
+        width="40"
+        height="40"
         viewBox="0 0 141.732 141.732"
       >
         <g fill="#ffffff">

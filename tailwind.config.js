@@ -11,7 +11,7 @@ module.exports = {
         buttonColor: "#3f66e9",
       },
       width: {
-        526: "526px",
+        657: "657px",
       },
     },
   },
