@@ -9,7 +9,7 @@ const PaymentHeader = () => {
           Payment Infomation
         </h2>
         <div className="flex items-center mt-4 sm:mt-0">
-          <div className="flex w-32 md:w-40 justify-start">
+          <div className="flex w-40 justify-start">
             <div className=" bg-blue-900 w-10 h-8 flex items-center ">
               <VisaSvg />
             </div>
@@ -17,7 +17,7 @@ const PaymentHeader = () => {
               <DiscoverSvg />
             </div>
           </div>
-          <div className="flex  w-32 md:w-40  justify-evenly">
+          <div className="flex  w-40  justify-evenly">
             <div className="w-6 h-6 rounded-full bg-gray-200"></div>
             <div className="">
               <img
