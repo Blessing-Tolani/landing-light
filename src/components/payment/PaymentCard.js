@@ -2,11 +2,11 @@ import MasterCard from "./MasterCard";
 
 const PaymentCard = () => {
   return (
-    <div className="flex justify-between">
+    <div className="flex flex-col xl:flex-row xl:justify-between">
       <MasterCard />
 
       <div>
-        <form className="">
+        <form className="mt-5 xl:mt-0">
           <div className="flex flex-col sm:flex-row ">
             <div className="">
               <label htmlFor="card_number" className="text-sm ">
@@ -17,7 +17,7 @@ const PaymentCard = () => {
                 name="card_number"
                 type="number"
                 placeholder="4324 &nbsp; 5433 &nbsp;9382 &nbsp;1030"
-                className="text-sm placeholder:text-black bg-inputBg  focus:shadow-sm p-1 pl-5 border border-inputBorder rounded w-80 h-10  mt-2"
+                className="text-sm placeholder:text-black bg-inputBg  focus:shadow-sm p-1 pl-5 border border-inputBorder rounded w-80 sm:w-64 md:w-80 h-10  mt-2"
               />
             </div>
             <div className=" sm:ml-5">
@@ -29,7 +29,7 @@ const PaymentCard = () => {
                 name="expiration_date"
                 placeholder="03/24"
                 type="text"
-                className="h-10 placeholder:text-black bg-inputBg text-sm  focus:shadow-sm p-1 pl-5 border border-inputBorder rounded w-80  mt-2"
+                className="h-10 placeholder:text-black bg-inputBg text-sm  focus:shadow-sm p-1 pl-5 border border-inputBorder rounded w-80 sm:w-64 md:w-80  mt-2"
               />
             </div>
           </div>
@@ -43,7 +43,7 @@ const PaymentCard = () => {
                 name="security_code"
                 type="number"
                 placeholder="420"
-                className="h-10 text-sm placeholder:text-black bg-inputBg focus:shadow-sm p-1 pl-5 border border-inputBorder rounded w-80 mt-2"
+                className="h-10 text-sm placeholder:text-black bg-inputBg focus:shadow-sm p-1 pl-5 border border-inputBorder rounded w-80 sm:w-64 md:w-80 mt-2"
               />
             </div>
 
@@ -55,7 +55,7 @@ const PaymentCard = () => {
               <input
                 type="number"
                 placeholder="10119"
-                className="h-10 bg-inputBg placeholder:text-black text-sm focus:shadow-sm p-1 pl-5 border border-inputBorder rounded w-80 mt-2"
+                className="h-10 bg-inputBg placeholder:text-black text-sm focus:shadow-sm p-1 pl-5 border border-inputBorder rounded w-80  sm:w-64 md:w-80 mt-2"
                 name="postal_code"
               />
             </div>
@@ -80,7 +80,7 @@ const PaymentCard = () => {
           <div className="mt-6">
             <button
               type="submit"
-              className=" hover:bg-blue-400 bg-buttonColor flex justify-center font-semibold text-sm text-white py-3.5 w-657 rounded"
+              className=" hover:bg-blue-400 bg-buttonColor flex justify-center font-semibold text-sm text-white py-3.5 w-80 sm:w-525 md:w-657 rounded"
             >
               Add card
             </button>

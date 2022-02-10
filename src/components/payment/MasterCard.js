@@ -3,13 +3,15 @@ import WifiSvg from "../../../public/logos/WifiSvg";
 
 const MasterCard = () => {
   return (
-    <div className="mt-2 font-semibold w-96 h-60 pt-2 rounded-sm bg-gradient-to-tr from-cardRed via-mixed to-cardPurple text-white">
-      <p className="pt-3 pb-2 pl-8 text-sm ">CARD NUMBER</p>
-      <p className="pl-8">
+    <div className="mt-2 font-semibold w-324 sm:w-525 xl:w-96 h-56 sm:h-72 xl:h-60 pt-2 rounded-sm bg-gradient-to-tr from-cardRed via-mixed to-cardPurple text-white">
+      <p className=" pt-3 pb-2 sm:pt-4 sm:pb-3 xl:pt-3 xl:pb-2 pl-8 text-xs sm:text-sm ">
+        CARD NUMBER
+      </p>
+      <p className="pl-8 text-sm sm:text-base">
         4 3 2 4 &nbsp; 5 4 3 3 &nbsp; 9 3 8 2&nbsp; 1 0 3 0
       </p>
       <div className="flex items-center pl-3">
-        <div className="w-5 h-4  rotate-90 mt-6">
+        <div className="w-5 h-4  rotate-90 mt-5 sm:mt-8 xl:mt-6">
           <WifiSvg />
         </div>
         <div className="relative  w-30 h-30 mb-4 ml-1">
@@ -21,8 +23,10 @@ const MasterCard = () => {
         </div>
       </div>
 
-      <p className="pt-6 pl-8 text-sm">EXPIRATION DATE</p>
-      <p className="pt-2 pb-1 pl-8">0 3 / 2 4</p>
+      <p className="pt-6 pl-8 text-xs sm:text-sm">EXPIRATION DATE</p>
+      <p className=" pt-2 pb-1 sm:py-3  xl:pt-2 xl:pb-1 pl-8 text-sm sm:text-base">
+        0 3 / 2 4
+      </p>
       <div className="flex  items-center h-10 justify-between pr-6 pl-8 pb-4">
         <p className="">John Doe</p>
 

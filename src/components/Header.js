@@ -1,7 +1,7 @@
 const Header = () => {
   return (
-    <div className="h-32 flex  items-center justify-end pr-6">
-      <div className="flex  justify-between w-2/5">
+    <div className="h-32 flex w-full items-center sm:justify-end pr-3">
+      <div className="flex  justify-between w-full sm:w-4/5  xl:w-2/5">
         <nav className=" w-4/5  ">
           <ul className="flex text-sm text-black justify-evenly items-end h-16 font-semibold pb-3">
             <li>TRIPS</li>

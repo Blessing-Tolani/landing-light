@@ -18,7 +18,7 @@ const AmountToBePaid = () => {
         </div>
       </div>
       <div className="border-t border-inputBorder  flex justify-between pt-6 pb-16">
-        <button className=" hover:bg-blue-400 bg-buttonColor flex justify-center font-semibold  text-sm text-white py-3 w-56 rounded cursor-pointer">
+        <button className=" hover:bg-blue-400 bg-buttonColor flex justify-center font-semibold  text-sm text-white py-2 sm:py-3 w-40 sm:w-56 rounded cursor-pointer">
           Complete Payment
         </button>
         <p className="font-extrabold">

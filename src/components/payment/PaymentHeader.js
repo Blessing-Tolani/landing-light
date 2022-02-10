@@ -4,10 +4,12 @@ import VisaSvg from "../../../public/logos/VisaSvg";
 const PaymentHeader = () => {
   return (
     <div>
-      <div className="flex w-full justify-between">
-        <h2 className="font-semibold text-xl">Payment Infomation</h2>
-        <div className="flex items-center">
-          <div className="flex w-40 justify-start">
+      <div className="flex flex-col sm:flex-row w-full justify-between">
+        <h2 className="font-semibold text-base md:text-xl">
+          Payment Infomation
+        </h2>
+        <div className="flex items-center mt-4 sm:mt-0">
+          <div className="flex w-32 md:w-40 justify-start">
             <div className=" bg-blue-900 w-10 h-8 flex items-center ">
               <VisaSvg />
             </div>
@@ -15,7 +17,7 @@ const PaymentHeader = () => {
               <DiscoverSvg />
             </div>
           </div>
-          <div className="flex  w-40  justify-evenly">
+          <div className="flex  w-32 md:w-40  justify-evenly">
             <div className="w-6 h-6 rounded-full bg-gray-200"></div>
             <div className="">
               <img
@@ -27,7 +29,7 @@ const PaymentHeader = () => {
           </div>
         </div>
       </div>
-      <div className="pt-2 pb-5">
+      <div className="pt-3 sm:pt-2 pb-5">
         <p className="text-gray-300">Choose your method of payment</p>
       </div>
     </div>
